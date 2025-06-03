@@ -17,6 +17,7 @@ Server utilization, queue length, and customer delay tracking
 Random number generation using inverse transform sampling
 
 📂 Input Format (mm1.in)
+
 A single line with three values separated by spaces:
 
 <mean_interarrival_time> <mean_service_time> <number_of_customers>
@@ -34,20 +35,28 @@ Each customer takes 0.5 minutes to be served
 Simulate until 1000 customers are processed
 
 📤 Output Format (mm1.out)
+
 The program prints the following statistics:
 
 Single-server queueing system
 
 Mean interarrival time     X.XXX minutes
+
 Mean service time          Y.YYY minutes
+
 Number of customers        NNNN
 
+
 Average delay in queue     A.AAA minutes
+
 Average number in queue    B.BBB
+
 Server utilization         C.CCC
+
 Time simulation ended      D.DDD minutes
 
 ⚙️ How It Works
+
 arrive() handles customer arrival events
 
 depart() handles customer departure events
@@ -60,12 +69,12 @@ updateTimeAvgStats() updates time-weighted statistics
 
 🚀 How to Run
 
-Save your input in a file named mm1.in
+1. Save your input in a file named mm1.in
 
-Compile and run the Java file:
+2. Compile and run the Java file:
 
-javac MM1QueueSimulation.java
+-javac MM1QueueSimulation.java
 
-java MM1QueueSimulation
+-java MM1QueueSimulation
 
-Results will be written to mm1.out
+3. Results will be written to mm1.out
