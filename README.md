@@ -59,11 +59,13 @@ expon(mean) generates exponentially distributed values
 updateTimeAvgStats() updates time-weighted statistics
 
 🚀 How to Run
+
 Save your input in a file named mm1.in
 
 Compile and run the Java file:
 
 javac MM1QueueSimulation.java
+
 java MM1QueueSimulation
 
 Results will be written to mm1.out
